@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vhmed\\OneDrive\\Documentos\\9no_cuatri\\DesarrolloWeb\\razor\\Ejercicios_Razor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F56541F5-6C16-4597-9BD3-E248D91DD0F3}|Ejercicios_Razor.csproj|c:\\users\\vhmed\\onedrive\\documentos\\9no_cuatri\\desarrolloweb\\razor\\ejercicios_razor\\pages\\arreglo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F56541F5-6C16-4597-9BD3-E248D91DD0F3}|Ejercicios_Razor.csproj|solutionrelative:pages\\arreglo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F56541F5-6C16-4597-9BD3-E248D91DD0F3}|Ejercicios_Razor.csproj|c:\\users\\vhmed\\onedrive\\documentos\\9no_cuatri\\desarrolloweb\\razor\\ejercicios_razor\\pages\\arreglo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F56541F5-6C16-4597-9BD3-E248D91DD0F3}|Ejercicios_Razor.csproj|solutionrelative:pages\\arreglo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F56541F5-6C16-4597-9BD3-E248D91DD0F3}|Ejercicios_Razor.csproj|c:\\users\\vhmed\\onedrive\\documentos\\9no_cuatri\\desarrolloweb\\razor\\ejercicios_razor\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F56541F5-6C16-4597-9BD3-E248D91DD0F3}|Ejercicios_Razor.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vhmed\\OneDrive\\Documentos\\9no_cuatri\\DesarrolloWeb\\razor\\Ejercicios_Razor\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vhmed\\OneDrive\\Documentos\\9no_cuatri\\DesarrolloWeb\\razor\\Ejercicios_Razor\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T02:41:27.954Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Arreglo.cshtml",
+              "DocumentMoniker": "C:\\Users\\vhmed\\OneDrive\\Documentos\\9no_cuatri\\DesarrolloWeb\\razor\\Ejercicios_Razor\\Pages\\Arreglo.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Arreglo.cshtml",
+              "ToolTip": "C:\\Users\\vhmed\\OneDrive\\Documentos\\9no_cuatri\\DesarrolloWeb\\razor\\Ejercicios_Razor\\Pages\\Arreglo.cshtml",
+              "RelativeToolTip": "Pages\\Arreglo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T04:30:18.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Arreglo.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\vhmed\\OneDrive\\Documentos\\9no_cuatri\\DesarrolloWeb\\razor\\Ejercicios_Razor\\Pages\\Arreglo.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Arreglo.cshtml.cs",
+              "ToolTip": "C:\\Users\\vhmed\\OneDrive\\Documentos\\9no_cuatri\\DesarrolloWeb\\razor\\Ejercicios_Razor\\Pages\\Arreglo.cshtml.cs",
+              "RelativeToolTip": "Pages\\Arreglo.cshtml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T04:30:17.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

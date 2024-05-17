@@ -1,0 +1,23 @@
+﻿@page
+@model Ejercicios_Razor.Pages.ExpresionMateModel
+@{
+}
+
+<h1>Expresion Matematica</h1>
+
+<form method="post" novalidate>
+    <label>variable a: </label><input type="number" asp-for="a" />
+    <br />
+    <label>variable b: </label><input type="number" asp-for="b" />
+    <br />
+    <label>variable x: </label><input type="number" asp-for="x"/>
+    <br />
+    <label>variable y: </label><input type="number" asp-for="y"/>
+    <br />
+    <label>variable n: </label><input type="number" asp-for="n"/>
+    <br />
+    <input type="submit" value="Calcular" />
+</form>
+
+<p>((a * x) + (b * y))^n = @Model.resultado1</p>
+@Model.resultado2

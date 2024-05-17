@@ -1,0 +1,26 @@
+﻿@page
+@model Ejercicios_Razor.Pages.ArregloModel
+@{
+}
+
+<h1>Arreglo</h1>
+
+@if (Model.RandomNumbers != null && Model.RandomNumbers.Count > 0)
+{
+    <ul>
+        @foreach (var number in Model.RandomNumbers)
+        {
+            <li>@number</li>
+        }
+    </ul>
+    <br />
+    <h2>Estadisticas</h2>
+    <p>Suma: @Model.Sum</p>
+    <p>Media (Average): @Model.media</p>
+    <p>Moda: @string.Join(", ", Model.moda)</p>
+    <p>Mediana: @Model.mediana</p>
+}
+else
+{
+    <p>No numbers generated.</p>
+}

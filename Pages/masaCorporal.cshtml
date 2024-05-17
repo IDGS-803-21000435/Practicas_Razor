@@ -1,0 +1,35 @@
+﻿@page
+@model Ejercicios_Razor.Pages.masaCorporalModel
+@{
+}
+
+<h1>Masa Corporal</h1>
+
+<p>Conoce si estas en tu peso ideal conforme a tu estatura</p>
+<form method="post" novalidate> 
+    <label>Peso:</label><input type="number" asp-for="peso"/>
+    <label>Estatura en Mtrs.</label><input type="number" asp-for="altura"/>
+    <input type="submit" value="Calcular"/>
+</form>
+<br />
+@switch (Model.resultado)
+{
+    case var resultado when resultado < 18:
+        <p><strong>Peso bajo</strong></p>
+        break;
+    case var resultado when resultado >= 18 && resultado < 25:
+        <p><strong>Peso normal</strong></p>
+        break;
+    case var resultado when resultado >= 25 && resultado < 27:
+        <p><strong>Sobre peso</strong></p>
+        break;
+    case var resultado when resultado >= 27 && resultado < 30:
+        <p><strong>Obesidad grado I</strong></p>
+        break;
+    case var resultado when resultado >= 30 && resultado < 40:
+        <p><strong>Obesidad grado II</strong></p>
+        break;
+    default:
+        <p><strong>Obesidad grado III</strong></p>
+        break;
+}

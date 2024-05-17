@@ -1,0 +1,21 @@
+﻿@page
+@model Ejercicios_Razor.Pages.AbcdarioModel
+@{
+}
+
+<h1>Cifrado de mensajes</h1>
+<form method="post" novalidate>
+    <label>Mensaje a Cifrar: </label><input type="text" asp-for="mensaje" />
+    <label>saltos:</label><input type="number" asp-for="n" />
+    <input id="Cifrar" type="submit" value="Cifrar" asp-for="accion" />
+</form>
+<br />
+<form method="post" novalidate>
+    <label>Mensaje a Descifrar: </label><input type="text" asp-for="mensaje" />
+    <label>N. saltos:</label><input type="number" asp-for="n" />
+    <input id="Descifrar" type="submit" value="Descifrar" asp-for="accion" />
+</form>
+<br />
+
+<label>Cifrado: </label><p>>@Model.resultado1</p>
+<label>Descifrar: </label><p>>@Model.resultado2</p>
